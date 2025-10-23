@@ -1,6 +1,5 @@
 package com.pluralsight;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +17,39 @@ public class Dealership {
         this.vehicles = new ArrayList<>();
     }
 
-    public ArrayList<Vehicle> getVehicles() {
-        return vehicles;
+    public List<Vehicle>getVehiclesByPrice(double min, double max) {
+
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void addVehicle(){
+
+    }
+
+    public void getAllVehicles(){
+
     }
 }
