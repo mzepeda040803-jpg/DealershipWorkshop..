@@ -32,7 +32,6 @@ public class DealershipFileManager {
             double price = Double.parseDouble(parts [6]);
             int odometer = Integer.parseInt(parts [7]);
 
-
         }
 
 //        while ((input = bufferedReader.readLine()) !+ null) {
